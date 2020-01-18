@@ -342,7 +342,9 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Assets\mesh.dat" />
+    <None Include="Assets\mesh.dat">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+    </None>
     <None Include="Header.hlsli" />
     <None Include="tutorialdx12uwp_TemporaryKey.pfx" />
   </ItemGroup>

@@ -32,10 +32,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="tutorialdx12uwp.App">
       <uap:VisualElements
-        DisplayName="tutorialdx12uwp"
+        DisplayName="tutorialdx12uwp_multiinstances"
         Square150x150Logo="Assets\Logo.png"
         Square44x44Logo="Assets\SmallLogo.png"
-        Description="tutorialdx12uwp"
+        Description="Ejemplo básico de instancias con DrawIndexedInstanced"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\WideLogo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
